@@ -41,7 +41,7 @@ You will find that I have provided the `Exception` classes inside `src/Exception
 
 ## 🧪 Tests
 
-> 💔 When you run the test suite for the first time on your code from A2, **you will get many errors, but please don't freak out!** This is because many of the tests will expect exceptions now instead of empty return values. Run one single test at a time, and if a test has a data provider, run a single data provider at a time, as it will make your life a lot easier while working. If you're unsure of how to do that, refer back to E2.3 and E3.1.
+> 💔 When you run the test suite for the first time on your code from A2, **you will get many errors, but please don't get discouraged!** This is because many of the tests will expect exceptions now instead of empty return values. Run one single test at a time, and if a test has a data provider, run a single data provider at a time, as it will make your life a lot easier while working. If you're unsure of how to do that, refer back to E2.3 and E3.1.
 
 Inside of the `tests` folder you will find the same test files from A2. Inside `tests/ModelTests` and `tests/ControllerTests` I have changed most of the _unhappy path_ tests to check if an exception was thrown instead of the results being `null`/`false`/`empty`. Inside `tests/RouterTests`, the _unhappy paths_ check if the right error message was sent back as well as an empty payload. Here's a recap of the tests from last time:
 
